@@ -1,4 +1,4 @@
-#
+ #
 # @BEGIN LICENSE
 #
 # forte_inversion by Psi4 Developer, a plugin to:
