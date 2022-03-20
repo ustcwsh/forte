@@ -325,6 +325,10 @@ class DSRG_MRPT2 : public MASTER_DSRG {
      * The core-core block of the OPDM Z.
      */
     void set_z_cc();
+    void change_zmn_degenerate(ambit::BlockedTensor& temp1, 
+        ambit::BlockedTensor& temp2, ambit::BlockedTensor& zmn_d, double coeff);
+    void change_zef_degenerate(ambit::BlockedTensor& temp1, 
+        ambit::BlockedTensor& temp2, ambit::BlockedTensor& zef_d, double coeff);
     /**
      * The virtual-virtual block of the OPDM Z.
      */
